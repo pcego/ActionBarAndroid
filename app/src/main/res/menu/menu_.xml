@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.fasa.edu.br.myactionbar.Activity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/icons8_pesquisar_24"
+        android:title="Buscar"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>
